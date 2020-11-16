@@ -1,0 +1,364 @@
+/*My fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+@font-face {
+    font-family: 'CaptureSmallz';
+    src: url(../fonts/block1/CaptureSmallz.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PribambasRegular';
+    src: url(../fonts/block1/PribambasRegular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Thintel';
+    src: url(../fonts/block2/Thintel.ttf) format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UnicephalonCyrillic';
+    src: url(../fonts/block2/UnicephalonCyrillic.otf) format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LongShotCyrillic';
+    src: url(../fonts/block3/LongShotCyrillic.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Horta';
+    src: url(../fonts/block3/Horta.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AktivGroteskCorpRegular';
+    src: url(../fonts/block4/AktivGroteskCorpRegular.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hisqaida2018Bold';
+    src: url(../fonts/block4/Hisqaida2018Bold.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Adderley Bold';
+    src: url(../fonts/block5/AdderleyBold.otf) format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AzbukaFixedRegular';
+    src: url(../fonts/business/Primetime__text.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background: #fff;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+    position: relative;
+}
+
+.header__name-student {
+    width: 225px;
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.04em;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.header__menu-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.header__menu-link {
+    margin-right: 60px;
+}
+
+.header__menu-link a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.block1 {
+    background: url(../img/block1_1.jpg), url(../img/block1_2.png);
+    height: 650px;
+    background-position: 0% 50%, 100% 5%;
+    background-size: 650px, 260px;
+    background-repeat: no-repeat;
+    background-color: #040410;
+}
+
+.block1__inner {
+    display: flex;
+    position: relative;
+}
+
+.block1-descr {
+    color: #FFFFFF;
+    width: 380px;
+    height: 90px;
+    position: absolute;
+    top: 190px;
+    right: 90px;
+}
+
+.block1__part1 {
+    font-family: 'CaptureSmallz', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 160%;
+    margin-bottom: 35px;
+}
+
+.block1__text1, .block1__text2 {
+    font-family: "PribambasRegular", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.block1__text1 {
+    margin-bottom: 25px;
+}
+
+.block2 {
+    padding: 155px 0 400px;
+    background-image: url(../img/block2__1.png), url(../img/block2__2.png), url(../img/block2__3.png);
+    background-position: 0% 100%, 50% 100%, 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+.block2__title {
+    font-family: "Thintel", sans-serif;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 160%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.block2__text {
+    font-family: 'UnicephalonCyrillic', sans-serif;
+    max-width: 535px;
+    height: 90px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.block3 {
+    position: relative;
+    padding: 165px 0;
+    background-image: url(../img/block3__1.png), url(../img/block3__2.png), url(../img/block3__3.png);
+    background-position: 50% -35%, 86% 115%, 100% -50%;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-color: #AD4220;
+}
+
+.block3__text-title {
+    font-family: 'LongShotCyrillic', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 160%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    max-width: 368px;
+    margin-bottom: 35px;
+}
+
+.block3__text-part1, .block3__text-part2 {
+    font-family: 'Horta', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 160%;
+    max-width: 440px;
+}
+
+.block3__text-part2 {
+    margin-top: 25px;
+}
+
+.block4 {
+    padding: 140px 0;
+    background-image: url(../img/block4__1.png), url(../img/block4__2.png);
+    background-position: -1% 103%, 100% -20%;
+    background-repeat: no-repeat;
+    background-size: 101px 303px, 190px 320px;
+    background-color: #fff;
+}
+
+.block4__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block4__descr {
+    margin: 42px 40px 0 0;
+    max-width: 425px;
+    color: #484848;
+}
+
+.block4__descr-title {
+    font-family: 'Hisqaida2018Bold', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 160%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.block4__descr-text1, .block4-text2 {
+    font-family: 'AktivGroteskCorpRegular', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 160%;
+}
+
+.block4-text2 {
+    margin-top: 27px;
+}
+
+.block4__img {
+    display: flex;
+}
+
+.block4__img1 {
+    margin-right: 63px;
+    margin-left: 45px;
+}
+
+.block4__img2 {
+    margin-top: 67px;
+}
+
+.block5 {
+    background-image: url(../img/block5.png);
+    height: 650px;
+    background-size: 593px;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-color: #44484A;
+}
+
+.block5__inner {
+    position: relative;
+}
+
+.block5__descr {
+    position: absolute;
+    right: -15px;
+    top: 180px;
+}
+
+.block5__title {
+    font-family: 'AdderleyBold', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 160%;
+    margin-bottom: 60px;
+}
+
+.block5__descr__text-part1 {
+    display: flex;
+    font-family: 'AzbukaFixedRegular', sans-serif;
+}
+
+.block5__descr__text1 {
+    margin-right: 32px;
+}
+
+.block5__descr__text1, .block5__descr__text2 {
+    max-width: 269px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.block5__descr__text-part2 {
+    font-family: 'AzbukaFixedRegular', sans-serif;
+    max-width: 510px;
+    height: 52px;
+    display: flex;
+}
+
+.block5__descr__text3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    font-style: italic;
+    margin-top: 44px;
+}
+
+.block5__descr__symbol {
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 160%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.footer div {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #4D4D4D;
+}
